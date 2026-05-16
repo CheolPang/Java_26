@@ -2,8 +2,8 @@ package interfaces;
 
 class DB {
 	void run() {
-		for(int i=0; i < 2; i++) {
-			if(i == 1) {
+		for (int i = 0; i < 2; i++) {
+			if (i == 1) {
 				DataAccessObject run = new MySqlDao();
 				run.select();
 				run.insert();
@@ -18,7 +18,7 @@ class DB {
 			}
 		}
 	}
-	
+
 }
 
 public class DBExam {
