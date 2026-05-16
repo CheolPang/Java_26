@@ -38,6 +38,14 @@ class A {
 		d.field1 = 50;
 		d.method1();
 	}
+	void method() {
+		class E {
+			E() {
+				System.out.println("E객체가 생성됨");
+			}
+		}
+		E e = new E();
+	}
 }
 
 public class nestedClass {
@@ -50,6 +58,7 @@ public class nestedClass {
 		A.C c = new A.C();
 		c.field2=10;
 		c.method2();
+		a.method();
 	}
 
 }
