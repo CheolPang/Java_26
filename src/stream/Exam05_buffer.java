@@ -15,6 +15,5 @@ public class Exam05_buffer {
 		while ((x = reader.read()) != -1)
 			System.out.print((char) x);
 		reader.close();
-
 	}
 }
