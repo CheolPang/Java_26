@@ -12,4 +12,18 @@ public class Util {
 		boolean ValueCompare = p1.getValue().equals(p2.getValue());
 		return keyCompare && ValueCompare;
 	}
+	
+	//제한된 T타입
+	public static <T extends Number> int compare(T t1 , T t2) {
+		
+		double v1 = t1.doubleValue();
+		double v2 = t2.doubleValue();
+	
+		System.out.println(v1);
+		System.out.println(v2);
+		
+		return Double.compare(v1, v2); //첫번째 매개값이 작으면 -1, 같으면 0, 크면 1을 리턴
+		
+		
+	}
 }
