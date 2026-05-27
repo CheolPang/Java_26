@@ -23,15 +23,15 @@ public class Exam01 {
 		Set<Integer> set = map.keySet();
 		System.out.println(set);
 		Iterator<Integer> iter = set.iterator();
-		while(iter.hasNext()) {
+		while (iter.hasNext()) {
 			int key = iter.next();
-			System.out.println(key+":"+map.get(key));
+			System.out.println(key + ":" + map.get(key));
 		}
 		System.out.println(map.size());
 		System.out.println(map.remove(10));
 		map.clear();
 		System.out.println(map);
-		if(map.isEmpty()) {
+		if (map.isEmpty()) {
 			System.out.println("모두 비어있음");
 		}
 	}

@@ -14,11 +14,11 @@ public class Exam04 {
 		treeSet.add("mango");
 		treeSet.add("c");
 		System.out.println(treeSet);
-		
+
 		System.out.println("==c보다 아래 있는 단어 검색==");
 		NavigableSet<String> headFruits = treeSet.headSet("c", true);
 		System.out.println(headFruits);
-		
+
 		System.out.println("==c보다 위에 있는 단어 검색==");
 		NavigableSet<String> tailFruits = treeSet.tailSet("c", true);
 		System.out.println(tailFruits);

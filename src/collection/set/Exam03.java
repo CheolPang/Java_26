@@ -15,11 +15,10 @@ public class Exam03 {
 		System.out.println("===숫자 내림차순===");
 		NavigableSet<Integer> descendingSet = scores.descendingSet();
 		System.out.println(descendingSet);
-		
+
 		System.out.println("===숫자 오름차순===");
 		NavigableSet<Integer> ascendingSet = descendingSet.descendingSet();
-		
-		
+
 		TreeSet<String> names = new TreeSet<String>();
 		names.add(new String("유재석"));
 		names.add(new String("하하"));
@@ -30,8 +29,8 @@ public class Exam03 {
 		NavigableSet<String> descendingNames = names.descendingSet();
 		System.out.println(descendingNames);
 		// []에서 빼서 데이터를 출력 => 향상된 for문 사용하기
-		for(String name:descendingNames)
+		for (String name : descendingNames)
 			System.out.println(name);
-		
+
 	}
 }
