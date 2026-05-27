@@ -2,10 +2,12 @@
 /array/
 /calendar/
 /classes/
+/collection/
 /com/
 /condition/
 /exception/
 /extend/
+/generic/
 /interfaces/
 /method/
 /object.dat
@@ -17,8 +19,5 @@
 /salary/
 /stream/
 /string/
-/test.txt
 /test/
 /variable/
-/generic/
-/collection/

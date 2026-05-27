@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Exam01 {
 	public static void main(String[] args) {
-		ArrayList<Integer> listNum = new ArrayList<Integer>();
+		List<Integer> listNum = new ArrayList<Integer>();
 		listNum.add(10);
 		listNum.add(20);
 		listNum.add(null);
