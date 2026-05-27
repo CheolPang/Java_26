@@ -26,6 +26,5 @@ public class Exam04 {
 		System.out.println("==b~d 사이에 있는 단어 검색==");
 		NavigableSet<String> rangeFruits = treeSet.subSet("b", true, "d", true);
 		System.out.println(rangeFruits);
-
 	}
 }

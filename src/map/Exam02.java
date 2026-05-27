@@ -33,6 +33,15 @@ public class Exam02 {
 		System.out.println("===주어진 키와 동등한 키가 있으면 해당 키를 리턴하고 없으면 바로 위의 Map.Entry를 리턴===");
 		entry = scores.ceilingEntry(81);
 		System.out.println(entry);
-
+		System.out.println("===키와 값을 따로 얻기===");
+		System.out.println(entry.getKey() + ":" + entry.getValue());
+		System.out.println("===제일 높은/낮은 엔트리를 리턴하고 컬렉션에서 제거함===");
+		while(!scores.isEmpty()) {
+//			entry = scores.pollFirstEntry();
+			entry = scores.pollLastEntry();
+			System.out.println(entry);
+			System.out.println("남은 객체수: "+scores.size());
+			
+		}
 	}
 }
