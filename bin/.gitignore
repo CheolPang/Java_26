@@ -9,6 +9,7 @@
 /extend/
 /generic/
 /interfaces/
+/map/
 /method/
 /object.dat
 /operator/
@@ -21,5 +22,5 @@
 /string/
 /test/
 /variable/
-/Map/
-/map/
+/lambda/
+/enums/
